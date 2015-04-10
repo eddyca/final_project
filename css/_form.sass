@@ -1,0 +1,67 @@
+
+$blue: #45AAF3
+$grey: #343634
+$concrete: #f2f2f2
+
+.contact-form
+  margin-left: auto
+  margin-right: auto
+  display: block
+  padding: 20px
+
+input
+  @include sansRegular
+  text-transform: uppercase
+  background: none
+  border: solid 2px $blue
+  color: $blue
+  padding: 15px 40px
+  font-size: 18px
+  display: inline-block
+
+
+  &:focus,
+  &:active
+    outline: none
+
+  &[type="text"],
+  &[type="email"],
+  &[type="tel"]
+    border: none
+    border-bottom: solid 2px $blue
+
+  &[type="submit"]
+    &:active
+      color: white
+      background: $blue
+
+textarea
+  background-color: transparent
+  border: none
+  border-bottom: solid 2px $blue
+  padding-top: 10px
+  color: $grey
+  @include serifRegular
+
+.input-group
+  display: inline-block
+  margin-right: 20px
+  position: relative
+
+  input
+    padding: 15px 0px
+    width: 183%
+
+  label
+    +position(absolute, 50% null null 0px)
+    +transform(translateY(-50%))
+    @include serifRegular
+    color: $grey
+    pointer-events: none
+    +transition
+
+  input:focus + label,
+  input.has-value + label
+    top: -10px
+    font-size: 12px
+    color: $blue

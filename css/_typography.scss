@@ -1,0 +1,51 @@
+$serif: "ff-tisa-web-pro",serif;
+$sansSerif: "refrigerator-deluxe",sans-serif;
+
+@mixin sansLight {
+  font-family: $sansSerif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin sansRegular {
+  font-family: $sansSerif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin sansBold {
+  font-family: $sansSerif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@mixin sansHeavy {
+  font-family: $sansSerif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@mixin serifRegular {
+  font-family: $serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin serifRegularItalic {
+  font-family: $serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@mixin serifBold {
+  font-family: $serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin serifBoldItalic {
+  font-family: $serif;
+  font-style: italic;
+  font-weight: 700;
+}
