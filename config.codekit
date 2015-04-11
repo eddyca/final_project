@@ -22,6 +22,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/_base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_base.scss",
+		"outputAbbreviatedPath": "\/css\/_base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/_blog.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -91,7 +107,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -179,6 +195,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/img_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 588440,
+		"inputAbbreviatedPath": "\/img\/img_2x.png",
+		"outputAbbreviatedPath": "\/img\/img_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/img_3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -212,6 +239,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/large_img_2_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.14466e+06,
+		"inputAbbreviatedPath": "\/img\/large_img_2_2x.png",
+		"outputAbbreviatedPath": "\/img\/large_img_2_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/large_img_3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -219,6 +257,17 @@
 		"initialSize": 4113,
 		"inputAbbreviatedPath": "\/img\/large_img_3.png",
 		"outputAbbreviatedPath": "\/img\/large_img_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/large_img_3_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26389e+06,
+		"inputAbbreviatedPath": "\/img\/large_img_3_2x.png",
+		"outputAbbreviatedPath": "\/img\/large_img_3_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -241,6 +290,17 @@
 		"initialSize": 244363,
 		"inputAbbreviatedPath": "\/img\/long_img.png",
 		"outputAbbreviatedPath": "\/img\/long_img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/long_img_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 874004,
+		"inputAbbreviatedPath": "\/img\/long_img_2x.png",
+		"outputAbbreviatedPath": "\/img\/long_img_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -311,6 +371,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/square3_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 514963,
+		"inputAbbreviatedPath": "\/img\/square3_2x.png",
+		"outputAbbreviatedPath": "\/img\/square3_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/square4.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -329,6 +400,17 @@
 		"initialSize": 142431,
 		"inputAbbreviatedPath": "\/img\/square5.png",
 		"outputAbbreviatedPath": "\/img\/square5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/square5_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138591,
+		"inputAbbreviatedPath": "\/img\/square5_2x.png",
+		"outputAbbreviatedPath": "\/img\/square5_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -384,6 +466,17 @@
 		"initialSize": 99652,
 		"inputAbbreviatedPath": "\/img\/square_photo.png",
 		"outputAbbreviatedPath": "\/img\/square_photo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/square_photo_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181502,
+		"inputAbbreviatedPath": "\/img\/square_photo_2x.png",
+		"outputAbbreviatedPath": "\/img\/square_photo_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -539,7 +632,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "final_project_clone",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/apple-touch-icon.png"
+	"iconImageName": "meme-wonka"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

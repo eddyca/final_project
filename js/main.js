@@ -69,7 +69,7 @@ $(function(){
 $(function(){
 
   $("#filters li").on("click", function(){
-    $(this).toggleClass("selected");
+    $(this).toggleClass("selected").css("color", "#ffffff");
   });
 
 });

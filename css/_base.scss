@@ -1,0 +1,21 @@
+// colors
+$blue: #45AAF3;
+$grey: #343634;
+$concrete: #f2f2f2;
+$accent: #45AAF3;
+$selectionColor: lighten($accent, 30%);
+
+@mixin mobile {
+  @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-moz-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    @content;
+  }
+}

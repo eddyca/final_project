@@ -1,18 +1,7 @@
 @import "bourbon", "neat";
 @import "typography";
+@import "base";
 
-// colors
-$blue: #45AAF3;
-$grey: #343634;
-$concrete: #f2f2f2;
-
-@mixin mobile {
-  @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
-    @content;
-  }
-}
-  /*Box model peek*/
-/** { border: 1px solid $grey; }*/
 
 a {
   text-decoration: none;
@@ -186,10 +175,18 @@ body {
 
 .portfolio.w2.h2 {
   @include mobile {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
   }
 }
+
+.portfolio.w1.h2 {
+  @include mobile {
+    width: 280px;
+    height: 280px;
+  }
+}
+
 
 .masonry {
   position:absolute;
@@ -306,9 +303,6 @@ body {
     }
   }
 }
-
-
-
 // ABOUT
 // CONTACT
 article {
@@ -331,6 +325,10 @@ article {
       @include serifRegular;
       line-height: 1.75rem;
       color: $grey;
+      @include mobile {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
       span {
         @include serifBold;
       }
@@ -355,42 +353,42 @@ article {
    align-items: center;
    -webkit-justify-content: center;
    justify-content: center;
-}
   }
-  img {
-    width: 204px;
-    height: 204px;
-    -webkit-box-ordinal-group: 3;
-    -moz-box-ordinal-group: 3;
-    box-ordinal-group: 3;
-    -webkit-order: 3;
-    -moz-order: 3;
-    order: 3;
-    -ms-flex-order: 3;
-    @include mobile {
-      justify-content: center;
+ img {
+  width: 204px;
+  height: 204px;
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  box-ordinal-group: 3;
+  -webkit-order: 3;
+  -moz-order: 3;
+  order: 3;
+  -ms-flex-order: 3;
+  @include mobile {
+    justify-content: center;
     }
   }
   [class^="icon-"] {
-    height: 100px;
-    width: 100px;
-    background: #e5eaee;
-    border-radius: 50%;
-    @include mobile {
-      display:none;
+  height: 100px;
+  width: 100px;
+  background: #e5eaee;
+  border-radius: 50%;
+  @include mobile {
+    display:none;
     }
   }
   .icon-1 {
     order: 1;
   }
-  .icon-2 {
+ .icon-2 {
     order: 2;
-  }
-  .icon-3 {
+ }
+ .icon-3 {
     order: 4;
-  }
-  .icon-4 {
+ }
+ .icon-4 {
     order: 5;
+}
 }
 
 #scroll-link-3 {
@@ -626,6 +624,7 @@ a.scroll-on-page-link {
   .small { display: block; }
 }
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -749,3 +748,4 @@ textarea[contenteditable] {
 only screen and (min-resolution: 144dpi) {
   /* Style adjustments for viewports that meet the condition */
 }
+
