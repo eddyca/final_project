@@ -223,7 +223,7 @@ body {
     letter-spacing: 1px;
     line-height: 21px;
     @include mobile {
-      font-size: 1.25rem;
+      font-size: 1rem;
     }
   }
   &.large {
@@ -275,12 +275,11 @@ body {
   width: 90%;
   text-decoration: none;
   position: relative;
-  top: 0;
-  left: 0px;
+  text-align: center;
   margin: 0 auto;
   letter-spacing: 1.5px;
   font-size: .9rem;
-  // padding-bottom: 50px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   max-width: 1185px;
   &a:hover {
@@ -354,16 +353,16 @@ article {
    -webkit-justify-content: center;
    justify-content: center;
   }
- img {
-  width: 204px;
-  height: 204px;
-  -webkit-box-ordinal-group: 3;
-  -moz-box-ordinal-group: 3;
-  box-ordinal-group: 3;
-  -webkit-order: 3;
-  -moz-order: 3;
-  order: 3;
-  -ms-flex-order: 3;
+ .face-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/erica-lynn-rodriguez1.png);
+    @include retina {
+      background-image: url(../img/erica-lynn-rodriguez1_2x.png);
+    }
+    @include size(200px);
+    order: 3;
   @include mobile {
     justify-content: center;
     }
