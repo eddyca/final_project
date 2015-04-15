@@ -54,6 +54,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/_font-icon.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_font-icon.scss",
+		"outputAbbreviatedPath": "\/css\/_font-icon.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/_form.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -338,6 +354,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/square10_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 569866,
+		"inputAbbreviatedPath": "\/img\/square10_2x.png",
+		"outputAbbreviatedPath": "\/img\/square10_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/square11.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -345,6 +372,17 @@
 		"initialSize": 137808,
 		"inputAbbreviatedPath": "\/img\/square11.png",
 		"outputAbbreviatedPath": "\/img\/square11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/square11_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 695502,
+		"inputAbbreviatedPath": "\/img\/square11_2x.png",
+		"outputAbbreviatedPath": "\/img\/square11_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -367,6 +405,17 @@
 		"initialSize": 676948,
 		"inputAbbreviatedPath": "\/img\/square12_2x.png",
 		"outputAbbreviatedPath": "\/img\/square12_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/square1_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 548332,
+		"inputAbbreviatedPath": "\/img\/square1_2x.png",
+		"outputAbbreviatedPath": "\/img\/square1_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -477,6 +526,17 @@
 		"initialSize": 120975,
 		"inputAbbreviatedPath": "\/img\/square8.png",
 		"outputAbbreviatedPath": "\/img\/square8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/square8_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224042,
+		"inputAbbreviatedPath": "\/img\/square8_2x.png",
+		"outputAbbreviatedPath": "\/img\/square8_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
