@@ -214,6 +214,20 @@ h3#contact {
       height: auto;
       width: 750px; }
 
+.item p {
+  position: relative;
+  top: -15px;
+  font-family: "ff-tisa-web-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px; }
+
+p a {
+  color: #45AAF3; }
+  p a:hover {
+    color: #343634; }
+
 a {
   text-decoration: none;
   color: #343634; }

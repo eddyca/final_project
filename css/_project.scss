@@ -64,3 +64,21 @@
   }
 }
 
+.item {
+  p {
+    position: relative;
+    top: -15px;
+    @include serifRegular;
+      font-size: 1rem;
+      letter-spacing: 1px;
+  }
+}
+
+p {
+  a {
+    color: $blue;
+    &:hover {
+      color: $grey;
+    }
+  }
+}
