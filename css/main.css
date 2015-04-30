@@ -54,6 +54,166 @@ html {
 .icon-vine:before {
   content: "\e60a"; }
 
+.section-contact {
+  text-align: center; }
+
+h3#contact {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+.social-links {
+  max-width: 700px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .social-links a {
+    display: block;
+    border: 2px solid #343634;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: #343634;
+    border-radius: 50%;
+    font-size: 28px;
+    margin: 20px;
+    position: relative; }
+    .social-links a:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      border: 2px solid #343634;
+      border-radius: 50%;
+      margin: -2px;
+      opacity: 1;
+      -webkit-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s; }
+    .social-links a:hover:after {
+      -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5);
+      opacity: 0; }
+
+.bar {
+  width: 250px;
+  height: 0px;
+  border-top: 4px solid #45AAF3;
+  margin: 0px auto 50px; }
+
+.biglink {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 1;
+  width: 90%;
+  margin: 0 auto; }
+
+.portfolio-group {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1185px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
+    .portfolio-group {
+      display: -webkit-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      /* works with row or column */
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+  .portfolio-group .text {
+    width: 300px;
+    margin: 5px 0 0 20px;
+    line-height: auto;
+    -webkit-flex: 1 0 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0;
+            flex: 1 0 0; }
+    @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
+      .portfolio-group .text {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1; } }
+    .portfolio-group .text h2 {
+      font-family: "refrigerator-deluxe", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 1rem; }
+    .portfolio-group .text p {
+      font-family: "ff-tisa-web-pro", serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      line-height: 21px; }
+    .portfolio-group .text span {
+      font-family: "ff-tisa-web-pro", serif;
+      font-style: italic;
+      font-weight: 700; }
+    .portfolio-group .text .date {
+      font-family: "ff-tisa-web-pro", serif;
+      font-style: italic;
+      font-weight: 400;
+      color: #858685; }
+    .portfolio-group .text .materials {
+      font-family: "ff-tisa-web-pro", serif;
+      font-style: italic;
+      font-weight: 400;
+      color: #858685; }
+  .portfolio-group .project-wrapper {
+    -webkit-flex: 2 0 0;
+    -webkit-box-flex: 2;
+        -ms-flex: 2 0 0;
+            flex: 2 0 0; }
+    .portfolio-group .project-wrapper #image-grid .item {
+      margin-top: 20px; }
+    .portfolio-group .project-wrapper img {
+      height: auto;
+      width: 750px; }
+
 a {
   text-decoration: none;
   color: #343634; }
@@ -75,7 +235,7 @@ body {
   margin: 0 auto;
   margin-bottom: 150px;
   height: 35px;
-  max-width: 90%; }
+  max-width: 1185px; }
   @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
     .nav_main {
       width: 90%;
@@ -85,6 +245,9 @@ body {
     color: #343634;
     height: 35px;
     text-transform: normal; }
+    @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
+      .nav_main a {
+        margin-right: 10px; } }
   @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
     .nav_main a img {
       display: block;
@@ -127,10 +290,12 @@ body {
     background-color: #45AAF3;
     z-index: -1; }
 
-#container {
+.main {
+  max-width: 1185px;
   margin: 0 auto;
-  width: 90%;
-  max-width: 1180px; }
+  width: 90%; }
+  .main #container {
+    margin: 0 auto; }
 
 .portfolio {
   width: 280px;
@@ -322,7 +487,7 @@ body {
     padding: 0; }
     .nav_portfolio .categories li {
       display: inline;
-      padding-right: 10px; }
+      margin-right: 10px; }
     .nav_portfolio .categories .selected {
       background-color: #45AAF3;
       z-index: -1; }
@@ -365,6 +530,17 @@ article {
         font-family: "ff-tisa-web-pro", serif;
         font-style: normal;
         font-weight: 700; }
+
+.back {
+  width: 90%;
+  margin: 0 auto 20px;
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #343634;
+  text-align: center; }
+  .back:hover {
+    color: #45AAF3; }
 
 .lockup {
   max-width: 780px;
@@ -465,7 +641,8 @@ article {
 
 .awesome-form {
   margin: 0 auto;
-  width: 339px; }
+  width: 339px;
+  padding-bottom: 20px; }
 
 .contact-form {
   margin-left: auto;
@@ -494,6 +671,7 @@ input {
     text-transform: uppercase; }
 
 textarea {
+  width: 276px;
   background-color: transparent;
   border: none;
   border-bottom: solid 2px #45AAF3;
@@ -530,189 +708,6 @@ textarea {
     font-size: 12px;
     color: #45AAF3;
     text-transform: uppercase; }
-
-.cards {
-  display: -webkit-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-lines: multiple;
-  -moz-box-lines: multiple;
-  box-lines: multiple;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  box-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  -o-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: justify; }
-
-.card {
-  -webkit-flex-basis: 15rem;
-  flex-basis: 15rem;
-  -ms-flex-preferred-size: 15rem;
-  -webkit-flex-grow: 1;
-  -moz-flex-grow: 1;
-  -webkit-box-flex: 1;
-          flex-grow: 1;
-  -ms-flex-positive: 1;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  background-color: #f6f6f6;
-  border-radius: 3px;
-  border: 1px solid gainsboro;
-  box-shadow: 0 2px 4px #e6e6e6;
-  cursor: pointer;
-  margin: 0 1rem 1.5rem 1rem;
-  position: relative; }
-  .card .card-image {
-    overflow: hidden;
-    max-height: 150px; }
-    .card .card-image img {
-      -webkit-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      background: #DBD199;
-      border-top-left-radius: 3px;
-      border-top-right-radius: 3px;
-      width: 100%; }
-  .card .card-header {
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    font-family: "refrigerator-deluxe", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    text-transform: uppercase;
-    background-color: #f6f6f6;
-    border-bottom: 1px solid gainsboro;
-    border-radius: 3px 3px 0 0;
-    line-height: 1.5rem;
-    padding: 0.5rem 0.75rem; }
-  .card .card-copy {
-    font-family: "ff-tisa-web-pro", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    padding: 0.75rem 0.75rem; }
-    .card .card-copy p {
-      margin: 0 0 0.75rem; }
-  .card:focus, .card:hover {
-    background-color: white; }
-    .card:focus .card-image img, .card:hover .card-image img {
-      background: #e2daac; }
-    .card:focus .card-header, .card:hover .card-header {
-      background-color: white; }
-  .card:active {
-    background-color: #f6f6f6; }
-    .card:active .card-header {
-      background-color: #f6f6f6; }
-
-article.type-system-serif {
-  margin: 0 auto;
-  width: 90%;
-  padding: 6.250em;
-  text-align: left; }
-  article.type-system-serif h1, article.type-system-serif h2, article.type-system-serif h3, article.type-system-serif p {
-    margin: 0; }
-  article.type-system-serif hr {
-    border-bottom: 1px solid #DDD;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin: 1.5em 0; }
-  article.type-system-serif p {
-    color: #333;
-    line-height: 1.5em; }
-  article.type-system-serif a {
-    color: #477DCA;
-    text-decoration: none; }
-  article.type-system-serif::after {
-    clear: both;
-    content: "";
-    display: table; }
-  article.type-system-serif .type {
-    border-bottom: 1px solid;
-    display: inline-block;
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 0.7em;
-    font-weight: 700;
-    margin-bottom: 2em;
-    padding: 0.3em 0;
-    text-align: left;
-    text-transform: uppercase; }
-  article.type-system-serif h1 {
-    font-family: "Lusitana", serif;
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 0.5em; }
-    @media screen and (min-width: 40em) {
-      article.type-system-serif h1 {
-        font-size: 2.6em; } }
-  article.type-system-serif h2 {
-    font-family: "Merriweather", serif;
-    font-size: 1em;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.6em;
-    margin-bottom: 0.9em; }
-    @media screen and (min-width: 40em) {
-      article.type-system-serif h2 {
-        font-size: 1.2em; } }
-  article.type-system-serif code {
-    background: #F7F7F7;
-    border-radius: 4.5px;
-    border: 1px solid #E0E0E0;
-    font-family: monaco;
-    font-size: 0.75em;
-    font-style: normal;
-    padding: 0.1em 0.4em;
-    white-space: nowrap; }
-  article.type-system-serif h3 {
-    font-family: "Lusitana", serif;
-    font-size: 1.4em;
-    font-weight: 400;
-    line-height: 1.3em;
-    margin-bottom: .4em; }
-  article.type-system-serif p.date {
-    color: rgba(51, 51, 51, 0.4);
-    font-family: "Merriweather", serif;
-    font-size: 0.9em;
-    font-style: italic;
-    margin-bottom: 0.3em; }
-  article.type-system-serif p {
-    font-family: "Merriweather", serif;
-    font-size: 0.9em;
-    line-height: 1.6em;
-    margin-bottom: 1.5em; }
-    article.type-system-serif p span {
-      font-family: "Merriweather Sans", sans-serif;
-      font-weight: 700; }
-  article.type-system-serif a.read-more {
-    display: inline-block;
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 0.8em;
-    font-weight: 700;
-    margin-left: 0.2em;
-    position: relative;
-    text-transform: uppercase; }
-    article.type-system-serif a.read-more span {
-      font-family: "Lusitana", serif;
-      font-size: 1.5em;
-      font-style: normal;
-      position: absolute;
-      right: -12px;
-      top: -1px; }
-  article.type-system-serif hr {
-    width: 3em; }
-  article.type-system-serif p.author {
-    font-family: "Merriweather", serif;
-    font-style: italic; }
 
 .footer {
   background: white;
@@ -795,16 +790,6 @@ article.type-system-serif {
     margin: auto;
     max-width: 35rem;
     text-align: center; }
-    .footer p span {
-      color: #45AAF3; }
-
-a.scroll-on-page-link {
-  font-family: "refrigerator-deluxe", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: #343634; }
-  a.scroll-on-page-link :hover {
-    background-color: #45AAF3; }
 
 @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
   .large {

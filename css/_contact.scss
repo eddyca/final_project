@@ -1,0 +1,59 @@
+.section-contact {
+  text-align: center;
+}
+
+h3#contact {
+  @include sansRegular;
+}
+
+.social-links {
+  max-width: 700px;
+  margin: 0px auto;
+  @include display(flex);
+  @include justify-content(space-around);
+  @include flex-wrap(wrap);
+  a {
+    display: block;
+    // background: $concrete;
+    border: 2px solid $grey;
+    @include size(50px);
+    line-height: 50px;
+    color: $grey;
+    border-radius: 50%;
+    font-size: 28px;
+    margin: 20px;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      @include position(absolute, 0px 0px 0px 0px);
+      border: 2px solid $grey;
+      border-radius: 50%;
+      margin: -2px;
+      opacity: 1;
+      @include transition;
+    }
+    &:hover:after {
+      @include transform(scale(1.5));
+      opacity: 0;
+    }
+  }
+}
+
+.bar {
+  width: 250px;
+  height: 0px;
+  border-top: 4px solid $blue;
+  margin: 0px auto 50px;
+}
+
+.biglink {
+  @include sansLight;
+  display: inline-block;
+  font: {
+    size: 2rem;
+  };
+  line-height: 1;
+  width: 90%;
+  margin: 0 auto;
+}

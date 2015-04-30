@@ -1,0 +1,1 @@
+!function(t){t.mark={jump:function(e){var o={selector:"a.scroll-on-page-link"};return"string"==typeof e&&(o.selector=e),e=t.extend(o,e),t(e.selector).click(function(){var e=t(this),o=e.attr("href"),r=1e3,n=t(o).offset().top;t("html,body").animate({scrollTop:n},r,"swing")})}}}(jQuery);
