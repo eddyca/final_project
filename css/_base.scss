@@ -11,6 +11,12 @@ $selectionColor: lighten($accent, 30%);
   }
 }
 
+@mixin medBrowser {
+  @media only screen and (max-width: 1280px), only screen and (max-device-width: 480px) {
+    @content;
+  }
+}
+
 @mixin mobile-tablet {
   @media only screen and (max-width: 750px), only screen and (max-device-width: 480px) {
     @content;
